@@ -36,7 +36,7 @@ h1{
 
 .header{
 	width: 100%; 
-    background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.9);
 	padding-left: 15%;
 	padding-top: 3em;
 	padding-bottom: 0px;
@@ -46,11 +46,11 @@ h1{
 .header a{
 	color: #49338A;
 	font-size: 1.25em;
-	padding-right: 5%
+  margin-left: 30%;
+  margin-right: 10%;
+  float: left;
 	width: 10%;
-	text-align: right;
-	float: right;
-	z-index: 1;
+  text-decoration: none;
 }
 
 .fixed-pos{
@@ -73,9 +73,9 @@ h1{
 .about-me img{
     opacity: 1.0;
     width: auto;
-    min-height: 5em;
-    max-height: 10em;
     height: 35%;
+    min-height: 5em;
+    max-height: 25em;
     margin-top: 3em;
     z-index: 5;
     float: left;
@@ -93,8 +93,13 @@ h1{
 	color: #2E212D;
 	font-size: 1.25em;
 	padding-left: 5%;
-	width: 70%;
-	padding-top: 3.5em;
+  width: auto;
+	max-width: 70%;
+  min-width: 30%;
+  height: 35%;/*
+  min-height: 5em;
+  max-height: 25em;*/
+  padding-top: 3.5em;
 	text-align: left;
 	float: left;
 	z-index: 1;
