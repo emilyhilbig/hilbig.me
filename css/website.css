@@ -96,8 +96,6 @@ h1{
 	color: #2E212D;
 	font-size: 1.25em;
 	padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 1em;
   width: auto;
 	max-width: 70%;
   min-width: 30%;
@@ -119,17 +117,17 @@ h1{
 
 .contact-me-pls img{
 	margin: 2em;
-  opacity: 1.0;
-  width: auto;
-  height: 15%;
-  z-index: 5;
+    opacity: 1.0;
+    width: auto;
+    height: 15%;
+    z-index: 5;
 }
 .contact-me-pls img:hover{
 	margin: 2em;
-  opacity: 0.6;
-  width: auto;
-  height: 15%;
-  z-index: 5;
+    opacity: 0.6;
+    width: auto;
+    height: 15%;
+    z-index: 5;
 }
 
 /*mobile*/
