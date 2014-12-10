@@ -56,6 +56,12 @@ h1{
   right: 5px;
 }
 
+.header a:hover{
+  background: rgba(73, 51, 138, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+
+}
+
 /*.header .header-border{
   border-radius: 0.5em;
   border: 2px solid #49338A;
