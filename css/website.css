@@ -26,7 +26,7 @@ h1{
 }
 
 .container{
-	background-image: url(../images/algonqpark-sunset.jpg);
+	background-image: url(../images/algonqpark-sunset.png);
 	background-size: cover;
 	/*width: contain;*/
   height: auto;
