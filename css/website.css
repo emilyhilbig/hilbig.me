@@ -217,7 +217,7 @@ a:hover {
 
   .mobile-resume{
     visibility: visible;
-    display: inherit;
+    display: inline-block;
   }
 
   .header a{
