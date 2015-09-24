@@ -1,0 +1,242 @@
+/*@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }*/
+
+/*img.bg {
+   Set rules to fill background 
+  min-height: 100%;
+  min-width: 2859px;
+	
+   Set up proportionate scaling 
+  width: 100%;
+  height: auto;
+	
+   Set up positioning 
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 0;
+}*/
+h1{
+	color: #49338A;
+	font-size: 48px;
+	float: left;
+}
+
+.container{
+	background-image: url(../images/algonqpark-sunset.png);
+	background-size: cover;
+	/*width: contain;*/
+  height: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	z-index: 0;
+  width: 100%;
+}
+
+.header{
+	width: 100%; 
+  background-color: rgba(255,255,255,0.9);
+	z-index: 5;
+}
+
+.header a{
+	color: #49338A;
+	font-size: 20px;
+  margin: 40px;
+  padding: 15px;
+/*	width: 10%;*/
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #49338A;
+  border-collapse: collapse;
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+}
+
+.header a:hover{
+  background: rgba(73, 51, 138, 0.75);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*.header .header-border{
+  border-radius: 0.5em;
+  border: 2px solid #49338A;
+98px
+}*/
+
+.header h1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+
+.fixed-pos{
+	position: fixed;
+}
+
+.ilb{
+	display: inline-block;
+}
+
+.about-me{/*
+    position: relative;*/
+	padding-top: 128px;
+  width: 100%;
+  padding-bottom: auto;
+  overflow: hidden;
+  height: auto;
+  background-color: rgba(255,255,255,0.4);
+}
+
+/*.about-me img{
+    opacity: 1.0;
+    width: auto;
+    height: 35%;
+    min-height: 5em;
+    max-height: 25em;
+    margin-top: 3em;
+    z-index: 5;
+    float: left;
+}*/
+.about-me img{
+  opacity: 1.0;
+  width: auto;
+  height: 35%;
+  min-height: 100px;
+  max-height: 600px;
+  z-index: 5;
+  float: left;
+  border-radius: 50%;
+  border: 2px solid rgba(73, 51, 138, 0.75);
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+
+.shaded{
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.8);
+}
+.about-me p{
+	color: #2E212D;
+	font-size: 20px;
+	padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: auto;
+	max-width: 50%;/*
+  min-height: 5em;
+  max-height: 25em;
+  padding-top: 3.5em;*/
+	text-align: left;
+	float: left;
+	z-index: 1;
+}
+
+.contact-me-pls{
+	background-color: rgba(73,51,138,0.4);
+	text-align: center;
+  width: 100%;
+}
+
+.contact-me-pls img{
+	margin: 2em;
+  opacity: 1.0;
+  width: auto;
+  height: 15%;
+  z-index: 5;
+  border-radius: 50%;
+  border: 2px solid rgba(73, 51, 138, 0.75);
+}
+.contact-me-pls img:hover{
+	margin: 2em;
+  opacity: 0.6;
+  width: auto;
+  height: 15%;
+  z-index: 5;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0);
+}
+
+.mobile-resume{
+  visibility: hidden;
+  display: none;
+}
+
+.footer {
+  height: 150px;
+  width: 100%;
+  /*padding-bottom: 20px;*/
+}
+
+.footer p{
+  font-family: Tahoma, Geneva, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  position: absolute;
+}
+/*mobile*/
+.coffee {
+  opacity: 0.8;
+  height: 15px;
+}
+
+.heart{
+  opacity: 0.8;
+  height: 15px;
+}
+@media screen and (max-width: 700px) { /* Specific to this particular image 
+  img.bg {
+    left: 50%;
+    margin-left: -1430px;   /* 50% 
+  }
+}
+/*
+a:hover {
+    text-decoration: none;
+  }*/
+  .container{
+/*    background-image: none;
+    background-color: rgb(190, 140, 159);*/
+    background-size: cover;
+    /*width: contain;*/
+    height: auto;
+    font-family: Tahoma, Geneva, sans-serif;
+    z-index: 0;
+  }
+
+  .mobile-resume{
+    visibility: visible;
+    display: inline-block;
+  }
+
+  .header a{
+    visibility: hidden;
+  }
+
+  .about-me img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    float: none;
+  }
+  .about-me p{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
