@@ -1,63 +1,88 @@
-
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-	<title>Emily Hilbig</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/website.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-	<link rel="icon" type="image/png" href="images/icon.png">
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	  ga('create', 'UA-57469019-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal website of Emily Hilbig.">
+  <title>Emily Hilbig</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/website.css?v=20260525b">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-57469019-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
-<body class="container">
+<body>
+  <header class="site-header">
+    <span class="brand">Emily Hilbig</span>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#connect">Connect</a>
+      <a class="nav-resume" href="EmilyHilbigResume.pdf" onclick="ga('send', 'event', 'View Resume', 'click');">Resume</a>
+    </nav>
+  </header>
 
-<div class="header fixed-pos header-padding">
-	<h1 >Hi! I'm Emily</h1>
-	<a href="EmilyHilbigResume.pdf" onclick="ga('send', 'event', 'View Resume', 'click');">resume</a>
+  <main>
+    <section class="hero" aria-labelledby="intro-title">
+      <div class="hero-content">
+        <img class="portrait" src="images/me-again.jpg" alt="Emily Hilbig">
+        <h1 id="intro-title">Hi, I am Emily Hilbig.</h1>
+        <p class="intro">
+          Thanks for visiting. This site is a simple place to find my resume, contact details, and professional links. I am updating this space over time with newer work, writing, and projects.
+        </p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button button-primary" href="EmilyHilbigResume.pdf" onclick="ga('send', 'event', 'View Resume', 'click');">View Resume</a>
+          <a class="button button-secondary" href="mailto:em.hilbig@gmail.com" onclick="ga('send', 'event', 'Contact Me', 'click');">Email Me</a>
+        </div>
+      </div>
+    </section>
 
-</div>
+    <section class="content-band" id="about">
+      <div class="content-grid">
+        <div>
+          <p class="section-label">About</p>
+          <h2>I build scalable software solutions, with an eye for customer impact.</h2>
+        </div>
+        <div class="copy">
+          <p>
+            With over 6 years of experience, I contribute as a Software Development Engineer at Amazon Music, specializing in NoSQL, operational analysis, and execution. As a senior member of the Free and Prime Music Voice team, I focus on delivering solutions that enhance user experience and operational efficiency.
+          </p>
+          <p>
+            My professional journey includes contributions to Amazon Advertising's Private Marketplace and other large-scale, distributed systems, showcasing expertise in building globally distributed NoSQL architectures and optimizing high-throughput, low-latency services. Committed to driving impactful results, I thrive in collaborative, cross-functional environments to deliver robust technical solutions.
+          </p>
+        </div>
+      </div>
+    </section>
 
+    <section class="link-band" id="connect" aria-labelledby="connect-title">
+      <div class="link-header">
+        <p class="section-label">Connect</p>
+        <h2 id="connect-title">Find me here.</h2>
+      </div>
+      <div class="link-list">
+        <a class="profile-link" title="GitHub" href="https://github.com/emilyhilbig" onclick="ga('send', 'event', 'View Github', 'click');">
+          <img src="images/gitlogo.png" alt="" aria-hidden="true">
+          <span>GitHub</span>
+        </a>
+        <a class="profile-link" title="Email Emily" href="mailto:em.hilbig@gmail.com" onclick="ga('send', 'event', 'Contact Me', 'click');">
+          <img src="images/mailmepls.png" alt="" aria-hidden="true">
+          <span>Email</span>
+        </a>
+        <a class="profile-link" title="LinkedIn" href="https://www.linkedin.com/pub/emily-hilbig/68/203/908" onclick="ga('send', 'event', 'View LinkedIn', 'click');">
+          <img src="images/linkedinlogo.png" alt="" aria-hidden="true">
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </section>
+  </main>
 
-<div class="about-me">
-	<img src="images/me610x650.jpg" class="ilb">
-	<p class="ilb">Thanks for visiting! Check back soon for updates.</p>
-</div>
-
-
-<div class="contact-me-pls">
-
-	<a title="Github" href="https://github.com/emilyhilbig"
-	onclick="ga('send', 'event', 'View Github', 'click');">
-		<img class="shaded" src="images/gitlogo.png">
-	</a>
-
-	<a title="Send me and Email" href="mailto:em.hilbig@gmail.com"
-	onclick="ga('send', 'event', 'Contact Me', 'click');">
-		<img class="shaded" src="images/mailmepls.png">
-	</a>
-
-	<a title="LinkedIn" href="https://www.linkedin.com/pub/emily-hilbig/68/203/908" 
-	onclick="ga('send', 'event', 'View LinkedIn', 'click');">
-		<img class="shaded" src="images/linkedinlogo.png">
-	</a>
-
-	<a title="Resume" class="mobile-resume" href="EmilyHilbigResume.pdf"
-	onclick="ga('send', 'event', 'View Resume', 'click');">
-		<img class="shaded" src="images/emily-hilbig-cv-logo.png">
-	</a>
-</div><!-- 
-<img src="images/algonqpark-sunset.jpg" class="bg"> -->
-
-<div class="footer">
-	<p>Made by Emily Hilbig with  <img src="images/white-heart.png" class="heart"> & <img src="images/coffee-white-icon.png" class="coffee"></p>
-</div>
-
+  <footer class="site-footer">
+    <p>Made by Emily Hilbig with <img src="images/white-heart.png" class="heart" alt="heart"> & <img src="images/coffee-white-icon.png" class="coffee" alt="coffee"></p>
+  </footer>
 </body>
 </html>
